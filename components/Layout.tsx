@@ -10,7 +10,7 @@ interface props {
 }
 
 const name = 'Your Name';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Bear109 BLOG';
 
 export default function Layout({ children, home }: props) {
   return (
@@ -38,7 +38,7 @@ export default function Layout({ children, home }: props) {
               width={144}
               alt=""
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>bear109</h1>
           </>
         ) : (
           <>
